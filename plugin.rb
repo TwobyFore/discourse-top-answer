@@ -2,9 +2,7 @@
 # about: highlight best post of given topic
 # authors: Vairix
 
-register_asset "javascripts/discourse/templates/post.hbs"
-
-register_asset "stylesheets/highlight_post.css"
+register_asset "stylesheets/top_answer.css"
 
 after_initialize do
 

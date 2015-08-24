@@ -2,3 +2,6 @@ highlight_post:
   group:
     default: ''
     client: ''
+  link_text:
+    default: ''
+    client: ''

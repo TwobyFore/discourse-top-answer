@@ -1,3 +1,4 @@
 en:
   site_settings:
     group: "Name of the group whose members can get top answer highlighting"
+    link_text: "Text to show on the link to go to the top answer"

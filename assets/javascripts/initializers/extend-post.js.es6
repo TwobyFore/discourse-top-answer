@@ -3,7 +3,7 @@ export default {
 
   initialize: function (container) {
 
-    Discourse.View.reopen({
+    Ember.View.reopen({
       didInsertElement: function() {
         this._super();
         if(this.element && this.element.id == "topic-closing-info") {

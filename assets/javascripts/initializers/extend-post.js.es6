@@ -6,7 +6,7 @@ export default {
     Discourse.View.reopen({
       didInsertElement: function() {
         this._super();
-        if(this.element.id == "topic-closing-info") {
+        if(this.element && this.element.id == "topic-closing-info") {
           var topic = $('#topic');
           var topic_id = topic.data('topic-id');
           var group = Discourse.SiteSettings.group;

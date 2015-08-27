@@ -11,7 +11,7 @@ export default Ember.Component.extend({
 
   actions: {
     scrollTopAnswer: function() {
-      $('html,body').animate({scrollTop: ($('.most_liked_post').offset().top-65)}, 'slow');
+      $('html,body').animate({scrollTop: ($('.most_liked_post').offset().top-140)}, 'slow');
     }
   }
 });

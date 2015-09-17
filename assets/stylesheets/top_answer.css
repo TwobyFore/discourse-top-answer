@@ -1,17 +1,29 @@
 /* Add styles for highlight post here */
 
 .most_liked_post::before {
-    content: "Top Answer";
-    padding-left: 40px;
-    line-height: 60px;
-    width: 100%;
-    font-family: "NHaasGroteskDSStd-65Md"!important;
-    font-size: 30px;
-    display: inline-block;
-    color: #ED2E30;
-    border-left: 10px solid;
+  content: "Top Answer";
+  padding-left: 40px;
+  line-height: 60px;
+  width: 100%;
+  font-family: "NHaasGroteskDSStd-65Md"!important;
+  font-size: 30px;
+  display: inline-block;
+  color: #ED2E30;
+  border-left: 10px solid;
 }
 
 .top-answer-link {
   color: #ED2E30;
+}
+
+.topic-map-item-value {
+  font-size: 10px;
+}
+
+.topic-map-item-title {
+  font-size: 12px;
+}
+
+.fa-heart-small {
+  font-size: 0.9em !important;
 }

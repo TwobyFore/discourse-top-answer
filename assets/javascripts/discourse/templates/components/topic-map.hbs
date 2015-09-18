@@ -1,16 +1,16 @@
 <section {{bind-attr class=":map mapCollapsed"}}>
   <ul class="clearfix">
     <li class='secondary'>
-      <span class="topic-map-item-value">{{number topic.replyCount}}</span>
       <span class="topic-map-item-title">Posts</span>
+      <span class="topic-map-item-value">{{number topic.replyCount}}</span>
     </li>
     <li class='secondary'>
-      <span class="topic-map-item-value">{{number topic.views class=topic.viewsHeat}}</span>
       <span class="topic-map-item-title">Views</span>
+      <span class="topic-map-item-value">{{number topic.views class=topic.viewsHeat}}</span>
     </li>
     <li class='secondary'>
-      <span class="topic-map-item-value">{{number topic.participant_count}}</span>
       <span class="topic-map-item-title">Contributors</span>
+      <span class="topic-map-item-value">{{number topic.participant_count}}</span>
     </li>
     {{#if topic.like_count}}
       <li class='secondary'>
